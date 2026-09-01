@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Nunito:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Outfit', sans-serif;
+  --font-body: 'Nunito', sans-serif;
+
+  --color-brand-dark: #0b0c10;
+  --color-brand-surface: #16171f;
+  --color-brand-card: #1e2030;
+  --color-brand-border: #2d2f45;
+  --color-brand-primary: #f59e0b;
+  --color-brand-primary-light: #fcd34d;
+  --color-brand-accent: #6366f1;
+  --color-brand-success: #10b981;
+  --color-brand-error: #ef4444;
+  --color-brand-muted: #6b7280;
+  --color-brand-text: #f1f5f9;
+  --color-brand-subtext: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-brand-dark);
+  color: var(--color-brand-text);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

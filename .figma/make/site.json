@@ -1,0 +1,10 @@
+{
+  "description": "Interactive challenges teach entrepreneurs how to capture better product photos and videos using their phones, enhancing visual storytelling skills.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

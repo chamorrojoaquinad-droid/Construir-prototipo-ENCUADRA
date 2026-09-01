@@ -1,0 +1,950 @@
+¡Sí! 🙌 Ahora entiendo mucho mejor lo que estás haciendo. **Lo que tienes en Figma ya es una excelente base visual**. Ahora necesitamos darle una estructura completa para que el prototipo parezca una aplicación/juego real y el jurado pueda recorrerlo.
+
+Te voy a dar **un único prompt completo para copiar y pegar en Figma AI**. Está pensado para que genere **todas las pantallas, botones e interacciones del juego**, empezando por **Planos** y dejando preparados los demás niveles.
+
+Importante: como es un **prototipo en Figma**, no necesitamos programar todavía. Las respuestas, puntos, pantallas y botones pueden funcionar mediante las interacciones de prototipo.
+
+Crea un prototipo interactivo de una aplicación móvil educativa y gamificada llamada **ENCUADRA**.
+
+## 1. CONCEPTO GENERAL
+
+ENCUADRA es una aplicación educativa dirigida principalmente a emprendedores que quieren aprender a crear mejores fotografías y videos para promocionar sus productos utilizando su celular.
+
+La aplicación enseña producción audiovisual mediante pequeños retos y juegos.
+
+El usuario aprende:
+
+* Tipos de planos
+* Ángulos de cámara
+* Iluminación
+* Composición
+* Fotografía de productos
+* Creación de contenido para redes sociales
+
+El objetivo es que un emprendedor pueda aprender conceptos audiovisuales de manera sencilla, visual, entretenida y práctica.
+
+El prototipo debe sentirse como una aplicación móvil moderna, profesional, juvenil y relacionada con fotografía y producción audiovisual.
+
+Formato principal: **mobile app vertical 390 x 844 px aproximadamente**.
+
+Estilo visual:
+
+* Fondo oscuro casi negro
+* Azul oscuro/gris oscuro para tarjetas
+* Naranja como color principal de acción
+* Blanco para textos principales
+* Gris claro para textos secundarios
+* Algunos degradados sutiles
+* Bordes redondeados
+* Sombras suaves
+* Iconografía sencilla relacionada con fotografía
+* Diseño limpio y moderno
+* Jerarquía visual clara
+* Apariencia profesional pero accesible
+
+Mantener el estilo visual de la pantalla inicial existente: fondo oscuro, título grande, botones redondeados y color naranja como elemento de acción.
+
+---
+
+# 2. PANTALLA DE INICIO
+
+Crear una pantalla de inicio llamada:
+
+**Inicio**
+
+Elementos:
+
+* Icono de cámara en la parte superior
+* Logo/título grande: **ENCUADRA**
+* Subtítulo: **Aprende a contar historias visuales**
+* Botón naranja grande: **COMENZAR**
+
+Agregar una pequeña frase:
+
+**“Aprende. Practica. Crea.”**
+
+El botón **COMENZAR** debe llevar mediante una interacción al menú principal.
+
+---
+
+# 3. MENÚ PRINCIPAL
+
+Crear una pantalla llamada:
+
+**Menú de aprendizaje**
+
+En la parte superior:
+
+**ENCUADRA**
+
+Debajo:
+
+**Elige tu reto**
+
+Mostrar tarjetas de niveles.
+
+### NIVEL 1 — PLANOS
+
+Icono de cámara.
+
+Texto:
+
+**Planos**
+
+**Aprende a elegir el plano correcto para cada situación.**
+
+Etiqueta:
+
+**Nuevo**
+
+Este nivel debe estar desbloqueado.
+
+### NIVEL 2 — ÁNGULOS
+
+Icono de perspectiva/cámara.
+
+Texto:
+
+**Ángulos**
+
+**Descubre cómo cambiar la percepción de una imagen.**
+
+Mostrar un pequeño candado indicando que se desbloquea después de completar Planos.
+
+### NIVEL 3 — ILUMINACIÓN
+
+Icono de bombilla.
+
+Texto:
+
+**Iluminación**
+
+**Aprende a utilizar la luz para mejorar tus fotografías.**
+
+Mostrar candado.
+
+### NIVEL 4 — COMPOSICIÓN
+
+Icono relacionado con encuadre.
+
+Texto:
+
+**Composición**
+
+**Aprende a organizar los elementos dentro de una fotografía.**
+
+Mostrar candado.
+
+### NIVEL 5 — REDES SOCIALES
+
+Icono de celular.
+
+Texto:
+
+**Contenido para redes**
+
+**Convierte tus conocimientos en contenido que vende.**
+
+Mostrar candado.
+
+En la parte inferior colocar:
+
+**Progreso: 0%**
+
+y una barra de progreso.
+
+La tarjeta **Planos** debe ser la única que se pueda seleccionar inicialmente.
+
+Al hacer clic en **Planos**, llevar al usuario a la pantalla:
+
+**Nivel 1 — Planos**
+
+---
+
+# 4. PANTALLA NIVEL 1 — PLANOS
+
+Crear una pantalla llamada:
+
+**Nivel 1 — Planos**
+
+Parte superior:
+
+**NIVEL 1**
+
+Título:
+
+**PLANOS**
+
+Subtítulo:
+
+**Aprende a elegir el encuadre correcto.**
+
+Mostrar:
+
+**Pregunta 1 de 5**
+
+Y un contador:
+
+**⭐ 0 puntos**
+
+Agregar una barra de progreso.
+
+---
+
+# 5. INTRODUCCIÓN DEL NIVEL
+
+Antes de comenzar la primera pregunta, mostrar una pequeña tarjeta educativa:
+
+### ¿Qué es un plano?
+
+Texto:
+
+**El plano determina qué parte de una persona, objeto o escena aparece dentro del encuadre.**
+
+Debajo mostrar visualmente diferentes tamaños de encuadre.
+
+Crear pequeños ejemplos visuales de:
+
+* Plano general
+* Plano entero
+* Plano americano
+* Plano medio
+* Primer plano
+* Primerísimo primer plano
+* Plano detalle
+
+Agregar botón:
+
+**EMPEZAR RETO**
+
+Al pulsarlo debe llevar a la primera pregunta.
+
+---
+
+# 6. PREGUNTA 1 — PLANO DETALLE
+
+Crear una pantalla de pregunta.
+
+Arriba:
+
+**RETO 01**
+
+**Pregunta 1 de 5**
+
+Pregunta:
+
+**Quieres mostrar el detalle de un producto, como el diseño de una joya o la textura de un objeto. ¿Qué plano utilizarías?**
+
+Mostrar una imagen de referencia de un producto.
+
+Debajo colocar cuatro botones grandes:
+
+**A. Plano general**
+
+**B. Plano medio**
+
+**C. Plano detalle**
+
+**D. Plano entero**
+
+La respuesta correcta es:
+
+**C. Plano detalle**
+
+---
+
+# 7. RESPUESTA CORRECTA
+
+Cuando el usuario seleccione:
+
+**C. Plano detalle**
+
+mostrar una pantalla/tarjeta de feedback positiva.
+
+Usar:
+
+🎉
+
+**¡CORRECTO!**
+
+Texto:
+
+**El plano detalle permite destacar una parte específica del producto y dirigir la atención del espectador hacia ese elemento.**
+
+Mostrar:
+
+**+100 XP**
+
+**⭐ 100 puntos**
+
+Botón:
+
+**SIGUIENTE RETO**
+
+Al pulsarlo pasar a la pregunta 2.
+
+---
+
+# 8. RESPUESTA INCORRECTA
+
+Si el usuario selecciona cualquiera de las respuestas incorrectas:
+
+mostrar:
+
+❌
+
+**CASI...**
+
+Texto:
+
+**Ese plano muestra una parte más amplia de la escena. Para destacar un detalle específico del producto utilizamos el plano detalle.**
+
+Botones:
+
+**INTENTAR DE NUEVO**
+
+y
+
+**VER EXPLICACIÓN**
+
+El botón **INTENTAR DE NUEVO** debe regresar a la misma pregunta.
+
+---
+
+# 9. PREGUNTA 2 — PRIMER PLANO
+
+Crear:
+
+**RETO 02**
+
+**Pregunta 2 de 5**
+
+Pregunta:
+
+**Quieres mostrar la expresión del rostro de una persona en un video testimonial. ¿Qué plano utilizarías?**
+
+Opciones:
+
+A. Plano general
+
+B. Plano entero
+
+C. Primer plano
+
+D. Plano detalle
+
+Respuesta correcta:
+
+**C. Primer plano**
+
+Feedback correcto:
+
+**¡EXCELENTE!**
+
+Texto:
+
+**El primer plano permite destacar el rostro y las expresiones de una persona, generando mayor conexión emocional.**
+
+Recompensa:
+
+**+100 XP**
+
+Botón:
+
+**SIGUIENTE RETO**
+
+---
+
+# 10. PREGUNTA 3 — PLANO MEDIO
+
+Crear:
+
+**RETO 03**
+
+**Pregunta 3 de 5**
+
+Pregunta:
+
+**Un emprendedor quiere grabar un video hablando directamente con sus clientes y mostrar su rostro junto con parte de su cuerpo. ¿Qué plano es más adecuado?**
+
+Opciones:
+
+A. Plano general
+
+B. Plano medio
+
+C. Plano detalle
+
+D. Primerísimo primer plano
+
+Respuesta correcta:
+
+**B. Plano medio**
+
+Feedback:
+
+**¡CORRECTO!**
+
+Texto:
+
+**El plano medio permite mostrar al personaje aproximadamente desde la cintura hacia arriba y funciona muy bien para entrevistas, tutoriales y videos para redes sociales.**
+
+Recompensa:
+
+**+100 XP**
+
+Botón:
+
+**SIGUIENTE RETO**
+
+---
+
+# 11. PREGUNTA 4 — PLANO GENERAL
+
+Crear:
+
+**RETO 04**
+
+**Pregunta 4 de 5**
+
+Pregunta:
+
+**Una cafetería quiere mostrar su local completo para que los clientes conozcan el ambiente y el espacio. ¿Qué plano utilizarías?**
+
+Opciones:
+
+A. Primer plano
+
+B. Plano detalle
+
+C. Plano medio
+
+D. Plano general
+
+Respuesta correcta:
+
+**D. Plano general**
+
+Feedback:
+
+**¡MUY BIEN!**
+
+Texto:
+
+**El plano general permite mostrar un espacio amplio y ayuda a contextualizar dónde ocurre la acción.**
+
+Recompensa:
+
+**+100 XP**
+
+Botón:
+
+**SIGUIENTE RETO**
+
+---
+
+# 12. PREGUNTA 5 — PLANO DETALLE PARA PRODUCTOS
+
+Crear:
+
+**RETO 05**
+
+**Pregunta 5 de 5**
+
+Mostrar una fotografía de un producto, por ejemplo un perfume, reloj, joya o alimento.
+
+Pregunta:
+
+**Un emprendedor vende perfumes y quiere destacar el logotipo y los detalles del envase para una publicación de Instagram. ¿Qué plano sería más efectivo?**
+
+Opciones:
+
+A. Plano general
+
+B. Plano entero
+
+C. Plano detalle
+
+D. Plano americano
+
+Respuesta correcta:
+
+**C. Plano detalle**
+
+Feedback correcto:
+
+**¡PERFECTO!**
+
+Texto:
+
+**Los detalles ayudan a mostrar características del producto y pueden hacer que una fotografía comercial sea más atractiva.**
+
+Recompensa:
+
+**+100 XP**
+
+Botón:
+
+**VER RESULTADO**
+
+---
+
+# 13. PANTALLA DE RESULTADO
+
+Crear una pantalla:
+
+**¡NIVEL COMPLETADO!**
+
+Mostrar:
+
+🏆
+
+**¡FELICIDADES!**
+
+Texto:
+
+**Has completado el Nivel 1 — Planos**
+
+Mostrar estadísticas:
+
+**Preguntas correctas: 5/5**
+
+**Puntuación: 500 XP**
+
+**Precisión: 100%**
+
+**Nivel completado: 100%**
+
+Mostrar una insignia:
+
+📷
+
+**MAESTRO DE LOS PLANOS**
+
+Agregar botones:
+
+**SIGUIENTE NIVEL**
+
+y
+
+**VOLVER AL MENÚ**
+
+---
+
+# 14. DESBLOQUEAR NIVEL 2
+
+Cuando el usuario complete correctamente el nivel de Planos, desbloquear:
+
+### ÁNGULOS
+
+Cambiar el candado por:
+
+**DESBLOQUEADO**
+
+Agregar etiqueta:
+
+**Nuevo nivel disponible**
+
+Al pulsar:
+
+**SIGUIENTE NIVEL**
+
+llevar al usuario al Nivel 2 — Ángulos.
+
+---
+
+# 15. NIVEL 2 — ÁNGULOS
+
+Crear una introducción:
+
+### ÁNGULOS
+
+**La posición de la cámara puede cambiar completamente cómo percibimos un producto o persona.**
+
+Crear retos sobre:
+
+* Ángulo normal
+* Picado
+* Contrapicado
+* Cenital
+* Nadir
+
+Ejemplo:
+
+**Quieres que un producto se vea más grande, fuerte o imponente. ¿Qué ángulo utilizarías?**
+
+Opciones:
+
+* Picado
+* Normal
+* Contrapicado
+* Cenital
+
+Respuesta:
+
+**Contrapicado**
+
+Explicación:
+
+**El contrapicado coloca la cámara por debajo del sujeto y puede hacerlo parecer más grande o dominante.**
+
+---
+
+# 16. NIVEL 3 — ILUMINACIÓN
+
+Crear una pantalla:
+
+### ILUMINACIÓN
+
+Explicar:
+
+**La luz puede cambiar completamente la apariencia de una fotografía.**
+
+Crear retos visuales.
+
+Ejemplo:
+
+**Tienes que fotografiar un producto utilizando la luz de una ventana. ¿Dónde colocarías el producto para obtener una iluminación lateral atractiva?**
+
+Mostrar una representación visual:
+
+VENTANA → PRODUCTO → CÁMARA
+
+Permitir seleccionar diferentes posiciones.
+
+Dar puntos según la respuesta.
+
+Temas:
+
+* Luz frontal
+* Luz lateral
+* Contraluz
+* Luz natural
+* Sombras
+* Reflectores
+
+---
+
+# 17. NIVEL 4 — COMPOSICIÓN
+
+Crear retos sobre:
+
+* Regla de tercios
+* Líneas guía
+* Espacio negativo
+* Simetría
+* Equilibrio visual
+
+Ejemplo:
+
+**¿Dónde colocarías este producto para aplicar la regla de tercios?**
+
+Mostrar una fotografía con una cuadrícula de 3x3.
+
+Permitir seleccionar diferentes posiciones.
+
+Dar:
+
+**+100 XP**
+
+si selecciona la posición adecuada.
+
+---
+
+# 18. NIVEL 5 — CONTENIDO PARA REDES
+
+Crear una sección más avanzada.
+
+Título:
+
+**CREA UNA PUBLICIDAD**
+
+Texto:
+
+**Ahora utiliza todo lo aprendido para ayudar a un emprendedor.**
+
+Presentar un caso:
+
+### CLIENTE: CAFETERÍA SABOR
+
+Producto:
+
+**Nuevo café frappé**
+
+Objetivo:
+
+**Conseguir más clientes en Instagram**
+
+El jugador debe seleccionar:
+
+### PLANO
+
+* Plano general
+* Plano medio
+* Plano detalle
+
+### ÁNGULO
+
+* Normal
+* Picado
+* Contrapicado
+
+### ILUMINACIÓN
+
+* Luz frontal
+* Luz lateral
+* Contraluz
+
+### COMPOSICIÓN
+
+* Centrada
+* Regla de tercios
+* Sin composición
+
+### FORMATO
+
+* Historia
+* Publicación
+* Reel
+
+Después mostrar:
+
+# TU PUBLICIDAD
+
+**Fotografía: 90/100**
+
+**Plano: 100/100**
+
+**Iluminación: 80/100**
+
+**Composición: 90/100**
+
+**Formato: 100/100**
+
+### RESULTADO FINAL: 92/100
+
+Mensaje:
+
+**¡Excelente! Tu contenido está listo para llamar la atención de los clientes.**
+
+---
+
+# 19. COMPONENTE PARA EMPRENDEDORES
+
+Agregar una pantalla llamada:
+
+**AYUDA A TU NEGOCIO**
+
+Texto:
+
+**Aprende a crear contenido para tu emprendimiento.**
+
+Botones:
+
+**QUIERO APRENDER**
+
+**QUIERO CREAR CONTENIDO**
+
+Crear una sección:
+
+### ¿QUÉ VENDES?
+
+Opciones:
+
+* Comida
+* Ropa
+* Belleza
+* Tecnología
+* Artesanía
+* Servicios
+* Otro
+
+Después:
+
+**¿Qué quieres mejorar?**
+
+* Fotografías
+* Videos
+* Redes sociales
+* Publicidad
+* Presentación de productos
+
+Al finalizar mostrar recomendaciones personalizadas.
+
+---
+
+# 20. CONEXIÓN ENTRE EMPRENDEDORES Y CREADORES AUDIOVISUALES
+
+Crear una pantalla:
+
+### CONECTA
+
+Texto:
+
+**¿Necesitas contenido profesional para tu negocio?**
+
+Subtexto:
+
+**Conecta con jóvenes creadores audiovisuales y convierte tus ideas en contenido.**
+
+Botón:
+
+**SOLICITAR CONTENIDO**
+
+Crear otra sección:
+
+### ¿ERES CREADOR AUDIOVISUAL?
+
+Texto:
+
+**Pon tus conocimientos en práctica y crea contenido para emprendimientos reales.**
+
+Botón:
+
+**QUIERO SER CREADOR**
+
+Esta sección debe representar el modelo de negocio del proyecto.
+
+---
+
+# 21. SISTEMA DE GAMIFICACIÓN
+
+Agregar elementos de juego en toda la aplicación:
+
+* XP
+* Puntos
+* Insignias
+* Niveles
+* Progreso
+* Retos
+* Niveles bloqueados/desbloqueados
+
+Crear insignias:
+
+📷 **Explorador Visual**
+
+🎯 **Maestro del Encuadre**
+
+💡 **Experto en Luz**
+
+🎨 **Maestro de la Composición**
+
+📱 **Creador de Contenido**
+
+🏆 **Director Visual**
+
+---
+
+# 22. PERFIL DEL USUARIO
+
+Crear pantalla:
+
+### MI PROGRESO
+
+Mostrar:
+
+**Nivel actual: 1**
+
+**XP: 500**
+
+**Progreso: 20%**
+
+Insignias obtenidas:
+
+📷 Explorador Visual
+
+Insignias bloqueadas:
+
+🔒 Maestro del Encuadre
+
+🔒 Experto en Luz
+
+🔒 Maestro de la Composición
+
+Agregar estadísticas:
+
+**Retos completados: 5**
+
+**Respuestas correctas: 5**
+
+**Precisión: 100%**
+
+---
+
+# 23. NAVEGACIÓN
+
+Crear navegación funcional entre todas las pantallas.
+
+Las interacciones principales deben ser:
+
+**COMENZAR → MENÚ**
+
+**PLANOS → NIVEL 1**
+
+**EMPEZAR RETO → PREGUNTA 1**
+
+**RESPUESTA CORRECTA → FEEDBACK CORRECTO**
+
+**SIGUIENTE RETO → SIGUIENTE PREGUNTA**
+
+**RESPUESTA INCORRECTA → FEEDBACK INCORRECTO**
+
+**INTENTAR DE NUEVO → MISMA PREGUNTA**
+
+**VER RESULTADO → RESULTADO DEL NIVEL**
+
+**SIGUIENTE NIVEL → ÁNGULOS**
+
+**VOLVER AL MENÚ → MENÚ**
+
+Los niveles bloqueados deben permanecer visualmente bloqueados hasta completar el nivel anterior.
+
+---
+
+# 24. EXPERIENCIA DEL USUARIO
+
+El prototipo debe sentirse como un juego educativo, no como una aplicación escolar tradicional.
+
+Usar:
+
+* Animaciones suaves
+* Transiciones entre pantallas
+* Botones con estados hover/pressed
+* Feedback visual al responder
+* Microanimaciones para ganar XP
+* Barras de progreso
+* Insignias
+* Celebraciones al completar niveles
+
+Cuando una respuesta sea correcta:
+
+Mostrar una animación breve de celebración y:
+
+**+100 XP**
+
+Cuando sea incorrecta:
+
+Mostrar feedback educativo sin castigar demasiado al usuario.
+
+La aplicación debe enseñar al usuario por qué una respuesta es correcta.
+
+---
+
+# 25. OBJETIVO FINAL DEL PROTOTIPO
+
+El prototipo debe demostrar claramente que ENCUADRA:
+
+1. Enseña producción audiovisual.
+2. Utiliza gamificación.
+3. Está dirigido a emprendedores.
+4. Ayuda a mejorar fotografías y videos para vender productos.
+5. Permite practicar mediante retos.
+6. Puede conectar emprendedores con estudiantes o creadores audiovisuales.
+7. Puede convertirse posteriormente en un servicio comercial.
+8. Genera beneficios tanto para el emprendedor como para los creadores audiovisuales.
+
+Crear todas las pantallas con un diseño consistente, profesional y moderno.
+
+Priorizar la experiencia móvil y mantener una navegación sencilla e intuitiva.
+
+El resultado debe parecer un **MVP/prototipo de una aplicación real lista para ser presentada en un concurso de innovación**.
